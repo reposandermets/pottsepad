@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Image, Row, Col } from 'antd';
+import { Button, Row, Col } from 'antd';
 import './App.less';
 import fp2 from './img/fp2.jpeg';
 import fp3 from './img/fp3.jpeg';
@@ -8,14 +8,9 @@ import fp5 from './img/fp5.jpg';
 import fp6 from './img/fp6.jpg';
 import fp7 from './img/fp7.png';
 
-const gridStyle = {
-  width: '25%',
-  textAlign: 'center',
-};
-
 const App = () => (
   <div className="App">
-    <div class="header">
+    <div className="header">
       <h1
         style={{
           position: 'absolute',
@@ -89,20 +84,20 @@ const App = () => (
     </div>
 
     <div style={{ marginTop: '1em', width: '100%', textAlign: 'center', paddingLeft: '10%', paddingRight: '10%' }}>
-      <div class="row">
-        <div class="column">
-          <img src={fp2} style={{ width: '100%' }} />
-          <img src={fp7} style={{ width: '100%' }} />
+      <div className="row">
+        <div className="column">
+          <img src={fp2} style={{ width: '100%' }} alt="Fireplace 2" />
+          <img src={fp7} style={{ width: '100%' }} alt="Fireplace 7" />
         </div>
 
-        <div class="column">
-          <img src={fp4} style={{ width: '100%' }} />
-          <img src={fp5} style={{ width: '100%' }} />
+        <div className="column">
+          <img src={fp4} style={{ width: '100%' }} alt="Fireplace 4" />
+          <img src={fp5} style={{ width: '100%' }} alt="Fireplace 5" />
         </div>
 
-        <div class="column">
-          <img src={fp6} style={{ width: '100%' }} />
-          <img src={fp3} style={{ width: '100%' }} />
+        <div className="column">
+          <img src={fp6} style={{ width: '100%' }} alt="Fireplace 6" />
+          <img src={fp3} style={{ width: '100%' }} alt="Fireplace 3" />
         </div>
       </div>
 
