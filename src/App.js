@@ -26,12 +26,12 @@ const App = () => (
       <p style={{ marginTop: '1em' }}>Oleme üle 10a töökogemusega sertifitseeritud pottsepad ning ehitame Sulle parima lahenduse.</p>
 
       <div className="flex-grid make-space-top">
-        <Button size="large" type="secondary" className="flex-col item-hide">Helista</Button>
-        <Button size="large" type="primary" className="flex-col">Otsi sobivat</Button>
+        <Button size="large" type="secondary" className="flex-col item-hide button-text">Helista</Button>
+        <Button size="large" type="primary" className="flex-col button-text">Otsi sobivat</Button>
       </div>
     </div>
 
-    <div style={{ marginTop: '1.5em', paddingLeft: '10%', paddingRight: '10%' }}>
+    <div style={{ marginTop: '2.5em', paddingLeft: '10%', paddingRight: '10%' }}>
       <Row gutter={[24, 24]}>
         <Col xs={24} sm={24} md={24} lg={24} xl={24} style={{ textAlign: 'center' }}>
           <h2 className="content-heading-2">Vali sobiv küttesüsteem</h2>
@@ -75,7 +75,7 @@ const App = () => (
       </Row>
     </div>
 
-    <div style={{ marginTop: '2em', paddingLeft: '10%', paddingRight: '10%' }}>
+    <div style={{ marginTop: '2.5em', paddingLeft: '10%', paddingRight: '10%' }}>
       <Row gutter={[24, 24]}>
         <Col xs={24} sm={24} md={24} lg={24} xl={24} style={{ textAlign: 'center' }}>
           <h2 className="content-heading-2">Meie tehtud tööd</h2>
